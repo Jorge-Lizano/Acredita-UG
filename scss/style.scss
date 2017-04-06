@@ -1,0 +1,48 @@
+// Fonts
+    //Open Sans para los títulos
+    @import 'https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700';
+    $font-title: 'Open Sans', sans-serif;
+
+    //Open Sans para los textos
+//    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic);
+//    $font-text: 'Open Sans', sans-serif;
+
+// Colors
+
+    $color1:    #2e3d76;
+    $color2:    #30505b;
+    $color3:    #45b29d;
+    $color4:    #efc94c;
+    $color5:    #e2793f;
+    $color6:    #df494a;
+    $color7:    #5a1973;
+    $color8:    #2ecc71;
+    $color9:    #95a5a6;
+    $colorFont: #5b5b5b;
+
+// Mixin media query
+    @mixin hasta($size){
+        @media screen and (max-width: $size){
+            @content;
+        }
+    }
+
+// Breakpoints
+$small:     480px;
+$medium:    767px;
+$x-medium:  992px;
+$large:     1200px;
+$x-large:   1490px;
+
+// Imports
+    @import "components/normalize";
+    @import "components/general";
+    @import "components/header";
+    @import "components/sections";
+    @import "components/reg-form";
+    @import "components/inside";
+    @import "components/footer";
+    @import "components/sweetalert";
+
+
+

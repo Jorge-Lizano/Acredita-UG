@@ -1,0 +1,64 @@
+.list{
+    list-style: none;
+//    padding-left: 0;
+    padding: 1em 1em 1em 2.5em;
+    margin: 0;
+    
+    &__item{
+//        padding: .4em 1.5em;
+        position: relative;
+        height: 2em;
+        margin-top: .5em;
+    }
+    
+    &__link{
+        text-decoration: none;
+        font-size: .95em;
+        color: #FFF;
+        display: block;
+        transition: ease .3s;
+        
+        &:before{
+            content: "";
+            display: inline-block;
+            width: 1.5em;
+            height: 1.5em;
+            background: url(../img/pdf-file.svg) center center no-repeat;
+            background-size: contain;
+            margin-right: .5em;
+        }
+        
+        &:hover{
+            padding-left: 1em;
+        }
+    }
+    
+    &__title,
+    &__title-sub{
+        color: #FFF;
+        font-size: 1.2em;
+        margin: 0;
+    }
+    
+    &__title-sub{
+        font-size: 1em;
+        padding-left: .5em;
+    }
+}
+
+.inner-content{
+}
+
+@include hasta($small){
+    .list{
+        padding: 1em;
+        
+        &__item{
+            height: 3.5em;
+        }
+        
+        &__link{
+            height: 3.5em;
+        }
+    }
+}

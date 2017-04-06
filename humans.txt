@@ -1,0 +1,27 @@
+/* TEAM */
+
+
+Creative 
+Director: 	Alfredo Pareja
+Email: 		apareja@vudumagix.com
+Location: 	Guayaquil, Ecuador.
+
+
+Developer: 	Jorge Luis Lizano Vera
+Email: 		sunakes17@gmail.com
+Location: 	Guayaquil, Ecuador.
+
+
+Designer: 	Hamilton Solórzano Martínez
+Email: 		bender_hssm@hotmail.com
+Location: 	Guayaquil, Ecuador.
+
+                         
+             
+/* SITE */
+    
+Last update:	2016/08/23
+Language: 		Español
+Standards: 		HTML5, CSS3, JS, PHP, Ajax Json
+Components: 	SASS, Sweetalert, jQuery, Slimscroll
+Software: 		Sublime Text2, Brackets, Git Bash, Node.js, Gulp, Google Chome, Adobe Ilustrator, Adobe Photoshop
